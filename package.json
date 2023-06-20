@@ -1,0 +1,19 @@
+{
+  "name": "graphqlcourse",
+  "version": "1.0.0",
+  "description": "Learning graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Omar Juma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphiql": "^2.4.7",
+    "graphql": "^16.6.0",
+    "graphql-http": "^1.19.0",
+    "lodash": "^4.17.21"
+  }
+}
