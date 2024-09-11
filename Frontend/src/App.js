@@ -3,10 +3,9 @@ import { gql, useQuery } from "@apollo/client";
 
 const GET_BOOKS = gql`
   query GetBooks {
-    books {
+    authors {
       id
       name
-      genre
     }
   }
 `;
@@ -21,8 +20,8 @@ function App() {
       {loading && <p>loading please wait...</p>}
       {data && (
         <ul>
-          {data.books.map(({ id, name, genre }) => {
-            return <li key={id}>{name +" " +genre}</li>;
+          {data.authors.map(({ id, name }) => {
+            return <li key={id}>{name +" "}</li>;
           })}
         </ul>
       )}

@@ -1,4 +1,5 @@
 const graphql = require("graphql");
+const { Author } = require("../models/models");
 const { GraphQLSchema } = graphql;
 
 const { GraphQLObjectType, GraphQLString, GraphQLID, GraphQLInt, GraphQLList } =
@@ -69,7 +70,11 @@ const RootQuery = new GraphQLObjectType({
     },
     authors: {
       type: new GraphQLList(AuthorType),
-      resolve(parent, args) {
+      async resolve(parent, args) {
+        const authors = await Author.find({});
+
+        console.log(authors);
+
         return authors;
       },
     },

@@ -17,7 +17,8 @@
     "graphql": "^16.9.0",
     "graphql-http": "^1.22.1",
     "mongodb": "^6.8.1",
-    "mongoose": "^8.6.1"
+    "mongoose": "^8.6.1",
+    "ruru": "^2.0.0-beta.13"
   },
   "devDependencies": {
     "nodemon": "^3.1.4"
