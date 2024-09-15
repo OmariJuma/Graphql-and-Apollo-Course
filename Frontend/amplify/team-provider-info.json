@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-apollobookstore-dev-84499-authRole",
+      "UnauthRoleArn": "arn:aws:iam::010438503364:role/amplify-apollobookstore-dev-84499-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::010438503364:role/amplify-apollobookstore-dev-84499-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-apollobookstore-dev-84499-deployment",
+      "UnauthRoleName": "amplify-apollobookstore-dev-84499-unauthRole",
+      "StackName": "amplify-apollobookstore-dev-84499",
+      "StackId": "arn:aws:cloudformation:eu-north-1:010438503364:stack/amplify-apollobookstore-dev-84499/05da3f90-7328-11ef-93fd-0a235af13e0b",
+      "AmplifyAppId": "d3riiwqela93bm"
+    }
+  }
+}
