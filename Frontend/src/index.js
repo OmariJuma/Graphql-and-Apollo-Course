@@ -14,7 +14,7 @@ import AddBook from "./components/AddBook";
 
 
 const client = new ApolloClient({
-  uri: "http://localhost:8080/graphql",
+  uri: `${process.env.REACT_APP_BACKEND_URI}/graphql`,
   cache: new InMemoryCache(),
 });
 const root = ReactDOM.createRoot(document.getElementById("root"));
